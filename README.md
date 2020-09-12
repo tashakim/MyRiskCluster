@@ -1,4 +1,8 @@
 # MyRiskCluster
+![GitHub repo size](https://img.shields.io/github/repo-size/tashakim/MyRiskCluster)
+![GitHub last commit](https://img.shields.io/github/last-commit/tashakim/MyRiskCluster)
+![GitHub](https://img.shields.io/github/license/tashakim/MyRiskCluster)
+![GitHub followers](https://img.shields.io/github/followers/tashakim?label=Followers&style=social)
 
 A full stack application built using Firebase, and Google Cloud Platform to detect high mental-health risk clusters affected by the Covid-19 Pandemic.
 
