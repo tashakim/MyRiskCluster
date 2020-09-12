@@ -1,0 +1,13 @@
+runtime: nodejs
+env: flex
+manual_scaling:
+  instances: 1
+
+beta_settings:
+  cloud_sql_instances: bigquery-public-data:covid19_open_data.covid19_open_data
+
+env_varialbes:
+  DB_USER:
+  DB_PASS:
+  DB_NAME:
+  DB_SOCKET:
