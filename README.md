@@ -6,7 +6,7 @@
 
 A full stack application built using Firebase, and Google Cloud Platform to detect high mental-health risk clusters affected by the Covid-19 Pandemic.
 
-![alt text] (https://github.com/tashakim/MyRiskCluster/views/images/image.riskcluster_dev.png?raw=true)
+![alt text](https://github.com/tashakim/MyRiskCluster/blob/master/riskcluster_dev.png?raw=true)
 
 
 ## Inspiration
