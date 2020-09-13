@@ -1,3 +1,6 @@
+
+
+
 # MyRiskCluster
 ![GitHub repo size](https://img.shields.io/github/repo-size/tashakim/MyRiskCluster)
 ![GitHub last commit](https://img.shields.io/github/last-commit/tashakim/MyRiskCluster)
@@ -6,7 +9,9 @@
 
 A full stack application built using Firebase, and Google Cloud Platform to detect high mental-health risk clusters affected by the Covid-19 Pandemic.
 
-![alt text](https://github.com/tashakim/MyRiskCluster/blob/master/riskcluster_dev.png?raw=true)
+<a href="url"><img src="https://github.com/tashakim/MyRiskCluster/blob/master/Original_crop_easyy.png" align="left" height="230" width="350" ></a>
+
+![alt text](https://github.com/tashakim/MyRiskCluster/blob/master/preview.png?raw=true)
 
 
 ## Inspiration
@@ -77,6 +82,7 @@ Effectively relays information about 'high mental-health risk clusters' to first
 Shows active alerts for areas that exceed a risk threshold.
 
 ## How we built it
+Express Framework using Node.js, Google Maps API, Firebase to configure realtime database, Bigquery using the Google Cloud platform
 
 ## Challenges we ran into
 
@@ -85,3 +91,7 @@ Shows active alerts for areas that exceed a risk threshold.
 ## What we learned
 
 ## What's next for MyRiskCluster
+
+# View Prototype 
+![alt text](https://github.com/tashakim/MyRiskCluster/blob/master/prototype.png?raw=true)
+
