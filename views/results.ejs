@@ -1,8 +1,21 @@
 <!DOCTYPE html>
 <html>
-  <head> </head>
+  <head> 
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet"></head>
   <body>
     <h1>You are at Risk!</h1>
     <h1><%= data.toUpperCase() + "!!!" %></h1>
+    <script>
+      import firebase from 'firebase';
+      import firebaseConfig from 'js/firebaseDB.js';
+      var client = firebaseConfig;
+      var database = client.firestore();
+      // function writeUserData(location) {
+      //   figure out how to get the post data from the above call and then put it in firebase
+      //  });
+      
+      </script>
   </body>
 </html>
