@@ -2,20 +2,47 @@
 <html>
   <head>
     <title>MyRiskCluster</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    
     <div class="header">
-    <h1>MyRiskCluster!</h1>
-    Track your community's mental health clusters.
+      <h1>MyRiskCluster!</h1>
+      Track your community's mental health clusters.
     </div>
     <form method="POST">
       <p>Enter your region: <input name="region" /></p>
       <button type="submit">Submit</button>
     </form>
-    
+
+    <div id="map"></div>
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=key&callback=initMap"
+    ></script>
+    <script>
+      function initMap() {
+        // The location of Uluru
+        var uluru = {
+          lat: -25.344,
+          lng: 131.036,
+        };
+        // The map, centered at Uluru
+        var map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 4,
+          center: uluru,
+        });
+        // The marker, positioned at Uluru
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map,
+        });
+      }
+    </script>
 
     <script src="js/firebaseDB.js"></script>
   </body>
