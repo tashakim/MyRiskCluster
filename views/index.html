@@ -14,6 +14,10 @@
       integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
       crossorigin="anonymous"
     />
+    <script
+      type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9xLtL7q_AKJNmhBki_pfpPkEj5QGFiVM&libraries=visualization"
+    ></script>
     <style>
       #map {
         height: 400px;
@@ -22,7 +26,7 @@
     </style>
   </head>
   <body>
-    <h1>My Risk Cluster</h1>
+    <h1>MyRiskCluster</h1>
     Keep track of your community's mental health admist the pandemic.
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script
@@ -37,28 +41,51 @@
       crossorigin="anonymous"
     ></script>
 
-    <h1>My Google Map</h1>
+    <h1>Health Risk Map</h1>
     <div id="map"></div>
     <script>
       function initMap() {
         // The location of Uluru
-        var uluru = { lat: 42.340382, lng: -72.496819 };
+        var sanfran = { lat: 37.774546, lng: -122.433523 };
         // The map, centered at Uluru
         var map = new google.maps.Map(document.getElementById("map"), {
-          zoom: 6,
-          center: uluru,
-          mapTypeId: "terrain",
+          zoom: 12,
+          center: sanfran,
+          mapTypeId: "hybrid",
         });
+        var heatMapData = [
+          { location: new google.maps.LatLng(37.782, -122.447), weight: 0.5 },
+          new google.maps.LatLng(37.782, -122.445),
+          { location: new google.maps.LatLng(37.782, -122.443), weight: 2 },
+          { location: new google.maps.LatLng(37.782, -122.441), weight: 3 },
+          { location: new google.maps.LatLng(37.782, -122.439), weight: 2 },
+          new google.maps.LatLng(37.782, -122.437),
+          { location: new google.maps.LatLng(37.782, -122.435), weight: 0.5 },
+
+          { location: new google.maps.LatLng(37.785, -122.447), weight: 3 },
+          { location: new google.maps.LatLng(37.785, -122.445), weight: 2 },
+          new google.maps.LatLng(37.785, -122.443),
+          { location: new google.maps.LatLng(37.785, -122.441), weight: 0.5 },
+          new google.maps.LatLng(37.785, -122.439),
+          { location: new google.maps.LatLng(37.785, -122.437), weight: 2 },
+          { location: new google.maps.LatLng(37.785, -122.435), weight: 3 },
+        ];
         // The marker, positioned at Uluru
-        var marker = new google.maps.Marker({ position: uluru, map: map });
+        var marker = new google.maps.Marker({ position: sanfran, map: map });
+        var heatmap = new google.maps.visualization.HeatmapLayer({
+          data: heatMapData,
+        });
+        heatmap.setMap(map);
       }
     </script>
     <script
       defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9xLtL7q_AKJNmhBki_pfpPkEj5QGFiVM&callback=initMap"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9xLtL7q_AKJNmhBki_pfpPkEj5QGFiVM&libraries=visualization&callback=initMap"
     ></script>
-    <script>
-      firebasemap.js;
-    </script>
+  </div>
+  <form method="POST">
+    <p>Enter your region: <input name="region" /></p>
+    <button type="submit">Submit</button>
+  </form>
   </body>
 </html>
