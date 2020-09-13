@@ -1,4 +1,5 @@
-
+<a href="url"><img src="https://github.com/tashakim/MyRiskCluster/blob/master/Original_crop_easyy.png" align="left" height="230" width="350" ></a>
+<a href="url"><img src="https://github.com/tashakim/MyRiskCluster/blob/master/Dark_mode.png" align="center" height="230" width="290" ></a>
 
 
 # MyRiskCluster
@@ -7,9 +8,8 @@
 ![GitHub](https://img.shields.io/github/license/tashakim/MyRiskCluster)
 ![GitHub followers](https://img.shields.io/github/followers/tashakim?label=Followers&style=social)
 
-A full stack application built using Firebase, and Google Cloud Platform to detect high mental-health risk clusters affected by the Covid-19 Pandemic.
 
-<a href="url"><img src="https://github.com/tashakim/MyRiskCluster/blob/master/Original_crop_easyy.png" align="left" height="230" width="350" ></a>
+A full stack application built using Firebase, and Google Cloud Platform to detect high mental-health risk clusters affected by the Covid-19 Pandemic.
 
 ![alt text](https://github.com/tashakim/MyRiskCluster/blob/master/preview.png?raw=true)
 
