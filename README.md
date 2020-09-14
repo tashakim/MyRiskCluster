@@ -1,5 +1,5 @@
-<a href="url"><img src="https://github.com/tashakim/MyRiskCluster/blob/master/Original_crop_easyy.png" align="left" height="230" width="350" ></a>
-<a href="url"><img src="https://github.com/tashakim/MyRiskCluster/blob/master/Dark_mode.png" align="center" height="230" width="290" ></a>
+<a href="url"><img src="https://github.com/tashakim/my-risk-cluster/blob/master/views/images/Original_crop_easyy.png" align="left" height="230" width="350" ></a>
+<a href="url"><img src="https://github.com/tashakim/my-risk-cluster/blob/master/views/images/Dark_mode.png" align="center" height="230" width="290" ></a>
 
 
 # MyRiskCluster
@@ -11,7 +11,7 @@
 
 A full stack application built using Firebase, and Google Cloud Platform to detect high mental-health risk clusters affected by the Covid-19 Pandemic.
 
-![alt text](https://github.com/tashakim/MyRiskCluster/blob/master/preview.png?raw=true)
+![alt text](https://github.com/tashakim/my-risk-cluster/blob/master/views/images/preview.png?raw=true)
 
 
 ## Inspiration
@@ -85,5 +85,5 @@ Shows active alerts for areas that exceed a risk threshold.
 Express Framework using Node.js, Google Maps API, Firebase to configure realtime database, Bigquery using the Google Cloud platform
 
 # View Prototype 
-![alt text](https://github.com/tashakim/MyRiskCluster/blob/master/prototype.png?raw=true)
+![alt text](https://github.com/tashakim/my-risk-cluster/blob/master/views/images/prototype.png?raw=true)
 
