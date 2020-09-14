@@ -1,7 +1,7 @@
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   text-align: center;
-  background-color:#37948f;
+  background-color: #ebbf30;
   color: #ffffff;
   font-size: larger;
 }
@@ -13,9 +13,9 @@ h5,
 h6 {
   font-weight: 700;
   color: #ffffff;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   text-align: center;
 }
-.header{
+.header {
   width: 100%;
-  }
+}

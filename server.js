@@ -9,7 +9,8 @@ var app = express();
 app.set("view engine", "ejs");
 
 // Send css, images, other static files
-app.use(express.static("views"));
+//app.use(express.static("views"));
+app.use(express.static(__dirname + "/views"));
 
 // Give server access to the user input
 app.use(bodyParser.json());
