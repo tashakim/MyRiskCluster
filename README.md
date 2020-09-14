@@ -84,14 +84,6 @@ Shows active alerts for areas that exceed a risk threshold.
 ## How we built it
 Express Framework using Node.js, Google Maps API, Firebase to configure realtime database, Bigquery using the Google Cloud platform
 
-## Challenges we ran into
-
-## Accomplishments that we're proud of
-
-## What we learned
-
-## What's next for MyRiskCluster
-
 # View Prototype 
 ![alt text](https://github.com/tashakim/MyRiskCluster/blob/master/prototype.png?raw=true)
 
